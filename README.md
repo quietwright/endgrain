@@ -5,6 +5,10 @@ growth rings, heartwood and sapwood, bark, and the occasional drying crack.
 
 ![five names, five trees](examples/names.svg)
 
+```
+npm install endgrain
+```
+
 ```js
 import { endgrain } from 'endgrain'
 
@@ -83,6 +87,8 @@ needs no network. `npm run demo` rebuilds it from `src/`.
 
 - Output is around 25–45 KB of SVG, most of it ring paths. It gzips to about a third.
   If you serve many at once, cache them; they never change.
+- Releases are published from GitHub Actions with npm provenance, so each version on npm can be
+  traced to the commit that built it.
 - The look is pinned by a test. A change to how trees grow is a minor version bump,
   because it changes everyone's avatar.
 

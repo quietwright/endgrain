@@ -1,19 +1,36 @@
 {
   "name": "endgrain",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Deterministic growth-ring identicons: every string grows its own tree.",
   "type": "module",
   "exports": "./src/endgrain.js",
-  "bin": { "endgrain": "bin/endgrain.js" },
-  "files": ["src", "bin"],
+  "bin": {
+    "endgrain": "bin/endgrain.js"
+  },
+  "files": [
+    "src",
+    "bin"
+  ],
   "scripts": {
     "test": "node --test",
     "examples": "node scripts/examples.js",
     "demo": "node scripts/demo.js"
   },
-  "keywords": ["identicon", "avatar", "svg", "generative", "wood", "tree-rings"],
+  "keywords": [
+    "identicon",
+    "avatar",
+    "svg",
+    "generative",
+    "wood",
+    "tree-rings"
+  ],
   "author": "quietwright",
   "license": "MIT",
-  "repository": { "type": "git", "url": "git+https://github.com/quietwright/endgrain.git" },
-  "engines": { "node": ">=18" }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quietwright/endgrain.git"
+  },
+  "engines": {
+    "node": ">=18"
+  }
 }
